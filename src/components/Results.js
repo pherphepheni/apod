@@ -7,9 +7,9 @@ import './style.css';
          return(
              <div>
                 <h3 className="text-center">{title} ({date})</h3>   
-                <img className="image"src={hdurl}/>
+                <img className="image"src={url}/>
                 <p className="mt-5">{explanation}</p>
-                <button className="button btn btn-outline-info mb-5" type="button"><a href={url} target="_blank">Ver imagen</a></button>
+                <button className="button btn btn-outline-info mb-5" type="button"><a href={hdurl} target="_blank">Ver imagen</a></button>
              </div>
          )
      }
